@@ -1,0 +1,26 @@
+#wrapper {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(https://www.duradie.com/wp-content/uploads/2016/07/test-dh.jpg);
+    background-size: 100% 100%;
+    background-position: center top;
+}
+
+#wrapper #main {
+    height: calc(100vh - 110px);
+    display: flex;
+   
+}
+#wrapper #main #content {
+    height: 100%;
+    width: 745px;
+    margin: 65px auto;
+    background-color: #000;
+    color: #fff;
+    padding: 35px 11px 60px;
+}
+#wrapper #main:hover{
+   
+}
+

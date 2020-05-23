@@ -1,0 +1,78 @@
+#wrapper {
+    min-height: 100vh;
+    background-image: url(https://www.duradie.com/wp-content/uploads/2015/09/test2-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#wrapper #main {
+    height: calc(100% - 110px);
+    display: flex;
+}
+
+#wrapper #main #content {
+    height: 100%;
+    width: 745px;
+    background-color: #000;
+    margin: 65px auto;
+    color: #fff;
+    padding: 35px 11px 60px;
+}
+
+#wrapper #main #content #title {
+    font-size: 28px;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+#wrapper #main #content #holderText{
+    margin-bottom: 35px;
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+p {
+    margin: 0 0 5px;
+    font-size: 13.5px;
+    line-height: 1.5;
+}
+
+p, h2 {
+    font-family: 'Muli', sans-serif;
+    color: #e4e3e3;
+}
+
+#wrapper #main #content .containerOfService{
+    display: flex;
+    margin-bottom: 35px;
+}
+#wrapper #main #content .containerOfService #img{
+    background-color: #ffffff;
+    width: 22%;
+    height: 100%;
+    border-radius: 50%;
+    padding:6px;
+    margin-right: 15px;
+    
+}
+#wrapper #main #content .containerOfService #img img{
+    vertical-align: top;
+    width: 100%;
+    border-radius: 50%;
+}
+#wrapper #main #content .containerOfService #text{
+    width: 78%;
+    margin-left: 15px;
+}
+#titleOfService{
+    font-family: 'Muli', sans-serif;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+}

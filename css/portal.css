@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    font-family: "Segoe UI", helvetica, Tahoma, Arial, sans-serif;
+}
+
+#wrapper {
+    width: 268px;
+    height: 100%;
+    margin: 4em auto;
+    border: 2px solid #BEBEBE;
+    border-radius: 4%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 0.6);
+}
+
+#wrapper form {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px 8px;
+    background-color: #EFEFEF;
+    border-radius: 3%;
+    border: 5px solid #DCDCDC;
+}
+
+#wrapper form #logo {
+    height: 65px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+
+#wrapper form #logo img {
+    width: 92%;
+    height: 94%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+hr {
+    background-color: #D7D7D7;
+    height: 1px;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+#wrapper form #userName,
+#wrapper form #password,
+#wrapper form #submit {
+    margin-bottom: 10px;
+    font-size: .875em;
+}
+
+#wrapper form #userName input {
+    background-image: url(../images/user.png);
+}
+
+#wrapper form #password input {
+    background-image: url(../images/key.png);
+}
+
+label {
+    display: block;
+    color: #787878;
+    font-size: 9px;
+    margin-bottom: 3px;
+}
+
+input {
+    background-position: 7px center;
+    background-repeat: no-repeat;
+    width: 86%;
+    border: 1px solid #B4B4B4;
+    font-size: 1.2em;
+    color: #787878;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) inset;
+    padding: 2px 2px 2px 28px;
+}
+
+#wrapper form #submit {
+    text-align: center;
+
+}
+
+#wrapper form #submit #sign {
+    width: 54%;
+    background: #BEBEBE;
+    margin-top: 6px;
+    border: 1px solid #8E8E8E;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    color: #323232;
+    text-shadow: 0 0 7px #FFF;
+    border-radius: 5px;
+    box-shadow: 0 20px 20px rgba(255, 255, 255, 0.3) inset;
+    padding: 7px;
+}

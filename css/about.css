@@ -1,0 +1,64 @@
+#wrapper { 
+    min-height: 100vh;
+    background-image: url(https://www.duradie.com/wp-content/uploads/2015/02/aboutus.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#wrapper #main {
+    height: calc(100% - 125px);
+    display: flex;
+}
+
+#wrapper #main #content {
+    height: 100%;
+    width: 745px;
+    margin: 65px auto;
+    background-color: #000;
+    color: #fff;
+    padding: 35px 11px 75px;
+}
+
+#wrapper #main #content #title {
+    font-size: 28px;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+p {
+    margin: 0 0 5px;
+    font-size: 13.5px;
+    line-height: 1.5;
+}
+
+p,
+h3 {
+    font-family: 'Muli', sans-serif;
+    color: #e4e3e3;
+}
+
+#wrapper #main #content p a {
+    color: #e8413f;
+    text-decoration: none;
+}
+
+#wrapper #main #content p a:hover {
+    text-decoration: underline;
+}
+
+#wrapper #main #content img{
+    width: 100%;
+}
+
+
+
+

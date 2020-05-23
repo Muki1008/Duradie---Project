@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: top left;
     background-attachment: fixed;
-    background-size: cover;
+    
 }
 
 #wrapper #main {
@@ -13,8 +13,8 @@
 }
 
 #wrapper #main #content {
-    width: 100%;
-    margin: 115px 310px;
+    width: 745px;
+    margin: 125px 310px;
     color: #fff;
     
 }
